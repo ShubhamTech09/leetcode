@@ -3,7 +3,7 @@ function twoSum(nums: number[], target: number): number[] {
   // for(let i = 0; i< nums.length  ; i++){
   //     const num = nums[i];
   //     let compliment:any = target - num;
-  //     for( compliment in numToIndex){
+  //     if( compliment in numToIndex){
   //        return [ numToIndex[compliment] , i]
   //     }
   //     numToIndex[num] = i
